@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My To-Do List</title>
+<link href="../assets/style.css" rel="stylesheet">
+<link href="../assets/jquerystyle.css" rel="stylesheet">
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../assets/todo.js"></script>
+<script src="../assets/serialize-todo-data.js"></script>
+</head>
+<body>
+<div class="container">
+<div id="to-do">
+<h1>My To-do List  </h1>
+<button id="add-todo">Add a to-do item</button>
+<h2>To Be Done</h2>
+<li id="todo-list" class="sortlist">
+<p>
+  <p>
+    <input type="hidden" name="todo-task" 
+    id = "todo-task" value =  <%= todos.todo %>>
+    <%  console.log(todos.todo);%>
+  </p>
+</li>
+
+</div>
+<div id="completed">
+<h2>Completed Tasks </h2>
+<ul id="completed-list" class="sortlist">
+  <p>
+    <input type="hidden" name="complete-task" 
+    id = "complete-task" value = <%= todos.done %>>
+    <%  console.log(todos.done);%>
+  </p>
+</ul>
+</div>
+<div id="new-todo" title="Add to-do item">
+  
+  <p>
+  	<label for="task">Task Name:  </label>
+  	<input type="text"  name="task" id="task">
+  </p>
+  </div>
+<script>
+</script>
+</body>
+</html>
