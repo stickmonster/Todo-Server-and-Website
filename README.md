@@ -17,7 +17,7 @@ The two sources for this project are Udemy's NodeJS course by Anthony Alicea and
 - amendments to the sortlist so that the data scraping could pick up manually moved todo items
 - configuring with MongoDB
 - downloading of specific fonts
-- structuring of the file system to allow these and other assets availability  
+- structuring of the file system to allow these and other assets' availability  
 
 
 The todo-list now sends information to the sever which sends this to the MongoDB database, logs the list, the server then retrieves the latest data entry, forwards it to the templated html (ejs) which funnels it to certain areas of the page, and sends it onto the Javascript file. The JQuery then parses this, puts it into a form for display and ready for repackaging into the data-collection function which then runs on any new entries to the list, any deletions, any movements between lists, and on refresh.
