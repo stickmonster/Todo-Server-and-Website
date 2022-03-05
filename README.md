@@ -7,7 +7,7 @@ Todo list in NodeJS, JQuery with MongoDB and Express/EJS middleware/templating
 ![](https://github.com/stickmonster/Todo-Server-and-Website/blob/main/todo%20list.gif)
 
 
-The two sources for this project are Udemy's NodeJS course by Anthony Alicea and the todo list JQuery primer by David Sawyer McFarland, found in 'Javascript & jQuery, the missing manual'. The former provided code on the server side, the latter on the browser. Both of these needed heavily revising and reconfiguring to work in conjunction, including:
+The two sources for this project are Udemy's NodeJS course by Anthony Alicea and the todo list JQuery primer by David Sawyer McFarland, found in 'Javascript & jQuery, the missing manual'. The former provided code on the server side, the latter on the browser. Both of these needed indepth and extensive revision and reconfiguration to work in conjunction, including:
 
 - a new schema and model to be written
 - new post and get instructions on the server, including specific pulling of files from MongoDB
