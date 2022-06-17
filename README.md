@@ -24,7 +24,7 @@ The todo-list now sends information to the sever which sends this to the MongoDB
 
 The css has not been re-written and remains that of D.S. McFarland.
 
-The files require NodeJS, express, ejs, and JQuery, the first there of which will need to be downloaded onto the command line, and the last of which is linked via the online option in the html file. A MongoDB database is also required, and the config file would have to be coded to allow this to connect.
+The files require NodeJS, express, ejs, and JQuery, the first three of which will need to be downloaded onto the command line, and the last of which is linked via the online option in the html file. A MongoDB database is also required, and the config file would have to be coded to allow this to connect.
 
 Thanks for taking the time to look at this repository,
 
